@@ -1,4 +1,5 @@
 def get_birthstone(date):
+    print(date)
     year, month, day = date.split('-')
     
     month = int(month)
